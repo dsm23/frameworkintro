@@ -14,6 +14,10 @@
 
 [Feature Files](#feature-files)
 
+[Step Definitions](#step-definitions)
+
+[Step Libraries](#step-libraries)
+
 ## Basics
 
 #### Directory Tree
@@ -189,11 +193,11 @@ You should now be able to open .feature files in the cucumber editor. You will b
 
 If you do not see this green speech bubble and instead see a blue 'F'. Then you will need to
 
-File -> Settings -> Editor - File Types -> Cucumber Scenario
+File -> Settings -> Editor -> File Types -> Cucumber Scenario
 
 and add '.feature' files to the Registered Patterns
 
-```
+```gherkin
 @ui
 @regression
 Feature: Name of Feature
@@ -209,6 +213,12 @@ So that I can eat (Describe an expected outcome)
 
 All descriptions in the feature file should be written in a way that a BA should be able to understand them that is to say an abstraction from code.
 
+Also, it is very important that within the scenario section that all statements written inline with Given, When, Then and And. For one of these statements
 
+## Step Definitions
+
+If the feature file has been setup and written correctly then you should see in intellij that the IDE is attempting to highlight the descriptions next to the
+
+## Step Libraries
 
 
