@@ -6,7 +6,7 @@
 
 [Basics](#basics)
 
-[Intellij](#intellij)
+[IntelliJ](#intellij)
 
 [Object-Orientated Java](#object-orientated-java)
 
@@ -83,7 +83,7 @@ If you do not have bdd-framework-utilities/ within your dependencies/ then run:
 mvn install:install-file -Dfile=src/main/java/dependencies/bdd-framework-utilities/bdd-framework-utilities-1.0-SNAPSHOT.jar -DpomFile=src/main/java/dependencies/bdd-framework-utilities/pom.xml
 ```
 
-## Intellij
+## IntelliJ
 
 Unlike other 
 
@@ -235,7 +235,7 @@ For more on Gherkin keywords, [Read More...](https://cucumber.io/docs/reference)
 
 ## Step Definitions
 
-If the feature file has been setup and written correctly then you should see in intellij that the IDE is attempting to highlight the descriptions next to the Gherkin keyword in the Scenario section.
+If the feature file has been setup and written correctly then you should see in IntelliJ that the IDE is attempting to highlight the descriptions next to the Gherkin keyword in the Scenario section.
 Highlight that text with your mouse and then while holding the 'Alt' key hit 'Enter' and you should see the 'create step definition' sub-menu pop up.
 
 ## Step Libraries
@@ -260,3 +260,7 @@ placed at the top of step Definitions file below the package declaration and abo
 ## Jira
 
 ## Zephyr
+
+```coffeescript
+alert "Hello, World!"
+```
