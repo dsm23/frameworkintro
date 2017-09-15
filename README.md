@@ -67,7 +67,7 @@ View -> Tools Window -> Maven Projects
 
 ## Object-Orientated Java
 
-(The following has been copied and pasted from the Java course on the site [Sololearn](https://www.sololearn.com). I am placing it here because I think it is a poignant explanation as to the difference between an object and a class in OOP and why we use them)
+(The following has been copied and pasted from the Java course on the site [Sololearn](https://www.sololearn.com). I am placing it here because I think it is a succinct explanation as to the difference between an object and a class in OOP and why we use them)
 
 Java uses Object-Oriented Programming (OOP), a programming style that is intended to make thinking about programming closer to thinking about the real world.
 In OOP, each object is an independent unit with a **unique identity**, just as objects in the real world are.
