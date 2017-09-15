@@ -20,29 +20,32 @@
 			* dependencies/
 				* bdd-framework-utilities/
 				* bdd-jira-zephyr-plugin/
-			* Pages/
+			* example/
 				* Test1/
-					* HomePage.java
-					* etc...
+					*Pages
+						* HomePage.java
+						* etc...
 				* Test2/
-					* HomePage.java
-					* etc...
+					* Pages
+						* HomePage.java
+						* etc...
 				* etc...
 		* resources/
 			* local.properties
 			* log4j.properties
 	* test/
 		* java/
-			* stepDefinitions/
-				* Test1/
-					* Test1StepDefs.java
-				* Test2/
-					* Test2StepDefs.java
-			* stepLibraries/
-				* Test1/
-					* Test1StepLibs.java
-				* Test2/
-					* Test2StepLibs.java
+			* example/
+				* stepDefinitions/
+					* Test1/
+						* Test1StepDefs.java
+					* Test2/
+						* Test2StepDefs.java
+				* stepLibraries/
+					* Test1/
+						* Test1StepLibs.java
+					* Test2/
+						* Test2StepLibs.java
 		* resources/
 			* features/
 				* Test1.feature
@@ -54,6 +57,12 @@
 * readme.md
 * serenity.properties
 
+* External Libraries/
+
 ## Intellij
+
+Unlike other 
+
+View -> Tools Window -> Maven Projects
 
 ## Object-Orientated Java
