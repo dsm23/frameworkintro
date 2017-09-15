@@ -162,4 +162,4 @@ is the same as:
 Person David;
 David = new Person();
 ```
-In the first line, `David` is not declared as an object but rather a reference variable allowing us to find the location of the methods and data members within the class that it is referencing but we can't change David without the second line.
+In the first line, `David` is not declared as an object but rather a reference variable allowing us to find the location of the methods and data members within the class that it is referencing but we can't instantiate `David` without the second line.
