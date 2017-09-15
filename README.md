@@ -10,6 +10,10 @@
 
 [Object-Orientated Java](#object-orientated-java)
 
+	[camelCase](#camelcase)
+
+[Feature Files](#feature-files)
+
 ## Basics
 
 #### Directory Tree
@@ -160,3 +164,48 @@ Person David;
 David = new Person();
 ```
 In the first line, `David` is not declared as an object but rather a reference variable allowing us to find the location of the methods and data members within the class that it is referencing but we can't instantiate `David` without the second line.
+
+#### camelCase
+
+| Identifier 	| Standard Convention |
+|:------------:	|:-----------------:|
+| package	 	| somepackage		|
+| variable		| someVariable		|
+| function/method | someFunction() 	|
+| class/object	 | SomeObject		|
+| constant	 	| SOME_CONSTANT 	|
+
+## Feature Files
+
+File -> Settings... -> Plugins -> Browse Repositories...
+
+Install
+
+* Gherkin
+* Gauge
+* Cucumber for Java
+
+You should now be able to open .feature files in the cucumber editor. You will be able to identify the cucumber editor fromt he green rectangular speech bubble next to the name of the file in the editor.
+
+If you do not see this green speech bubble and instead see a blue 'F'. Then you will need to
+
+File -> Settings -> Editor - File Types -> Cucumber Scenario
+
+and add '.feature' files to the Registered Patterns
+
+```
+@ui
+@regression
+Feature: Name of Feature
+As a Belly user (Describe an initial context)
+I want to know when I am hungry (Describe an event)
+So that I can eat (Describe an expected outcome)
+
+	Scenario: Growl when I am hungry
+		Given I have '40' cukes in my belly
+		When I wait '1' hour
+		Then my belly should 'silent'
+```
+Everything in a 
+
+
