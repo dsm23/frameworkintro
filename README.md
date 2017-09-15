@@ -18,6 +18,14 @@
 
 [Step Libraries](#step-libraries)
 
+[Pages](#pages)
+
+[Serenity](#serenity)
+
+[Jira](#jira)
+
+[Zephyr](#zephyr)
+
 ## Basics
 
 #### Directory Tree
@@ -66,6 +74,14 @@
 * serenity.properties
 
 * External Libraries/
+
+#### bdd-framework-utilities
+
+If you do not have bdd-framework-utilities/ within your dependencies/ then run:
+
+```java
+mvn install:install-file -Dfile=src/main/java/dependencies/bdd-framework-utilities/bdd-framework-utilities-1.0-SNAPSHOT.jar -DpomFile=src/main/java/dependencies/bdd-framework-utilities/pom.xml
+```
 
 ## Intellij
 
@@ -229,6 +245,18 @@ In an attempt to remove clutter, it is advised to write all methods executed in 
 To access the written methods in step Libraries, it is import to have
 
 ```java
-import example.ui.steplibs.somesteplibrariesjavaclass;
+import example.steplibs.test1.somesteplibrariesjavaclass;
 ```
 placed at the top of step Definitions file below the package declaration and above the class declaration.
+
+## Pages
+
+
+
+@DefaultUrl goes outside the class declaration
+
+## Serenity
+
+## Jira
+
+## Zephyr
