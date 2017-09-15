@@ -254,8 +254,10 @@ placed at the top of step Definitions file below the package declaration and abo
 @DefaultUrl goes outside the class declaration
 
 @FindBy([id, className, etc...](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/FindBy.html))
+```java
+@FindBy(id="generic")
 public WebElementFacade webElement;
-
+```
 ## Serenity
 
 ## Jira
