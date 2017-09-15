@@ -253,6 +253,11 @@ placed at the top of step Definitions file below the package declaration and abo
 
 @DefaultUrl goes outside the class declaration
 
+```java
+@DefaultUrl("https://www.google.com")
+public class HomePage extends PageObject {}
+```
+
 @FindBy([id, className, etc...](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/FindBy.html))
 ```java
 @FindBy(id="generic")
