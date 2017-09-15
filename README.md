@@ -16,7 +16,20 @@
 
 * src
 	* main
+		* java
+			* dependencies
+				* bdd-framework-utilities
+				* bdd-jira-zephyr-plugin
+			* Pages
+		* resources
 	* test
+		* java
+			* stepDefinitions
+			* stepLibraries
+		* resources
+			* features
+			* json
+* target
 
 ## Intellij
 
