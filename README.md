@@ -95,3 +95,11 @@ In other words, classes can be described as blueprints, descriptions, or definit
 
 Each class has a name, and each is used to define **attributes** and **behaviour**.
 Some examples of attributes and behaviour:
+
+| Attributes | Behaviour |
+|------------|-----------|
+| name 		 | walk		|
+| height	 | run 		|
+| weight	 | jump		|
+| gender	 | speak 	|
+| age		 | sleep 	|
