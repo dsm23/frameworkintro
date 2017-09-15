@@ -251,16 +251,21 @@ placed at the top of step Definitions file below the package declaration and abo
 
 ## Pages
 
-
-
 @DefaultUrl goes outside the class declaration
+
+@FindBy([id, className, etc...](https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/FindBy.html))
+public WebElementFacade webElement;
 
 ## Serenity
 
 ## Jira
 
+[Download](https://www.atlassian.com/software/jira/download)
+
+to run, double click 
+C:\Program Files\Atlassian\JIRA\bin\startup.bat
+
+To use, uncomment in serenity.properties. I advise following gitlab wiki.
+
 ## Zephyr
 
-```coffeescript
-alert "Hello, World!"
-```
