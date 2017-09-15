@@ -152,3 +152,14 @@ David.speak();
 David.sleep();
 David.checkThirst(true);
 ```
+
+However, in our framework, we don't need to manipulate a new object, we merely need the reference of the class i.e.
+```java
+Person David = new Person();
+```
+is the same as:
+```java
+Person David;
+David = new Person();
+```
+In the first line, `David` is not declared as an object but rather a reference variable allowing us to find the location of the methods and data members within the class that it is referencing but we can't change David without the second line.
