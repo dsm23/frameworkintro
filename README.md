@@ -103,3 +103,48 @@ Some examples of attributes and behaviour:
 | weight	 | jump		|
 | gender	 | speak 	|
 | age		 | sleep 	|
+
+#### Syntax
+
+```java
+public class Person {
+	public String name;
+	public int height;
+	public String gender
+	public int age;
+	private int weight;
+	
+	public void walk(){
+		//some function
+	}
+	public void run(){
+		//some function
+	}
+	public void jump(){
+		//some function
+	}
+	public String speak(){
+		//some function
+	}
+	public void sleep(){
+		//some function
+	}
+}
+```
+To make an object an instance of a class must be declared:
+```java
+Person David = new Person();
+```
+now, the data members of object David can be set or the object can do some method and thus have a behaviour:
+```java
+David.name = "David";
+David.gender = "male";
+David.age = 24;
+David.height = 180;
+
+David.walk();
+David.run();
+David.jump();
+David.speak();
+David.sleep();
+```
