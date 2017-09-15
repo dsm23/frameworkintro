@@ -215,8 +215,11 @@ All descriptions in the feature file should be written in a way that a BA should
 
 Also, it is very important that within the scenario section that all statements written inline with Given, When, Then and And. For one of these statements
 
+For more on Gherkin keywords, [Read More...](https://cucumber.io/docs/reference)
+
 ## Step Definitions
 
-If the feature file has been setup and written correctly then you should see in intellij that the IDE is attempting to highlight the descriptions next to the
+If the feature file has been setup and written correctly then you should see in intellij that the IDE is attempting to highlight the descriptions next to the Gherkin keyword in the Scenario section.
+Highlight that text with your mouse and then while holding the 'Alt' key hit 'Enter' and you should see the 'create step definition' sub-menu pop up.
 
 ## Step Libraries
