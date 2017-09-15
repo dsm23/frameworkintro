@@ -265,6 +265,14 @@ public WebElementFacade webElement;
 ```
 ## Serenity
 
+GUI representation of tests passing/failing/erroneous. Accompanied with breakdowns, screenshots and links to issues on Jira.
+
+http://localhost:63342/<ProjectName>/target/site/serenity/index.html
+
+can also be found at
+
+C:\Users\<User>\<ProjectName>\target\site\serenity\index.html
+
 ## Jira
 
 [Download](https://www.atlassian.com/software/jira/download)
