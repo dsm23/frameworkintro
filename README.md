@@ -22,7 +22,7 @@
 				* bdd-jira-zephyr-plugin/
 			* example/
 				* Test1/
-					*Pages
+					* Pages/
 						* HomePage.java
 						* etc...
 				* Test2/
