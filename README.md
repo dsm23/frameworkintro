@@ -10,7 +10,7 @@
 
 [Object-Orientated Java](#object-orientated-java)
 
-	[camelCase](#camelcase)
+[camelCase](#camelcase)
 
 [Feature Files](#feature-files)
 
@@ -206,6 +206,9 @@ So that I can eat (Describe an expected outcome)
 		When I wait '1' hour
 		Then my belly should 'silent'
 ```
-Everything in a 
+
+All descriptions in the feature file should be written in a way that a BA should be able to understand them that is to say an abstraction from code.
+
+
 
 
