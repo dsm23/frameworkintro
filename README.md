@@ -223,3 +223,12 @@ If the feature file has been setup and written correctly then you should see in 
 Highlight that text with your mouse and then while holding the 'Alt' key hit 'Enter' and you should see the 'create step definition' sub-menu pop up.
 
 ## Step Libraries
+
+In an attempt to remove clutter, it is advised to write all methods executed in tests in the stepLibraries/ folder.
+
+To access the written methods in step Libraries, it is import to have
+
+```java
+import example.ui.steplibs.somesteplibrariesjavaclass;
+```
+placed at the top of step Definitions file below the package declaration and above the class declaration.
