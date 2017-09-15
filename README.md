@@ -4,6 +4,20 @@
 
 ## Contents
 
-*[Basics](#basics)*
+[Basics](#basics)
+
+[Intellij](#intellij)
+
+[Object-Orientated Java](#object-orientated-java)
 
 ## Basics
+
+#### Directory Tree
+
+* src
+	* main
+	* test
+
+## Intellij
+
+## Object-Orientated Java
