@@ -129,6 +129,9 @@ public class Person {
 	public void sleep(){
 		//some function
 	}
+	public boolean checkThirst(boolean thirsty){
+		//somefunction
+	}
 }
 ```
 To make an object an instance of a class must be declared:
@@ -147,4 +150,5 @@ David.run();
 David.jump();
 David.speak();
 David.sleep();
+David.checkThirst(true);
 ```
