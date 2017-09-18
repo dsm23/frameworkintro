@@ -195,6 +195,8 @@ In the first line, `David` is not declared as an object but rather a reference v
 | class/object	 | SomeObject		|
 | constant	 	| SOME_CONSTANT 	|
 
+camelCase is a recommendation, not a rule. It is generally accepted. It helps make your code more readable, maintainable, and reusable.
+
 ## Feature Files
 
 File -> Settings... -> Plugins -> Browse Repositories...
@@ -272,9 +274,9 @@ In executing the tests, the framework will start from the feature files. These s
 
 ↡ Feature files
 
-↡ Step-definitions
+↡ StepDefinitions
 
-↡ Step-Libraries
+↡ StepLibraries
 
 ↠ Page Object Model
 
