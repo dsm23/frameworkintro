@@ -205,7 +205,7 @@ Install
 * Gauge
 * Cucumber for Java
 
-You should now be able to open .feature files in the cucumber editor. You will be able to identify the cucumber editor fromt he green rectangular speech bubble next to the name of the file in the editor.
+You should now be able to open .feature files in the cucumber editor. You will be able to identify the cucumber editor from the green rectangular speech bubble next to the name of the file in the editor.
 
 If you do not see this green speech bubble and instead see a blue 'F'. Then you will need to
 
@@ -235,8 +235,48 @@ For more on Gherkin keywords, [Read More...](https://cucumber.io/docs/reference)
 
 ## Step Definitions
 
+This is what a step-definition looks like:
+
+```java
+@Given("^I (?:want|would like) to buy (.*)$")
+public void givenCustomerWantsToBuy(String product) throws Throwable {
+	...
+}
+```
+
 If the feature file has been setup and written correctly then you should see in IntelliJ that the IDE is attempting to highlight the descriptions next to the Gherkin keyword in the Scenario section.
 Highlight that text with your mouse and then while holding the 'Alt' key hit 'Enter' and you should see the 'create step definition' sub-menu pop up.
+
+From this sub-menu you can create a new step-definition in a current step-definition file or create a new file
+
+You can also create step-definitions for every gherkin description in the .feature file.
+
+However, it is worth noting that the generation step-definitions use double quotes and do not convert keywords declared in single quotes into variables in their step-definitions.
+
+The simplest keyword declartion is `'(.*)'` In that:
+
+```java
+@Given("^I search for '(.*)'$")
+public void searchForInput(String keyword) throws Throwable {
+	...
+}
+```
+
+Cheatsheet: http://agileforall.com/wp-content/uploads/2011/08/Cucumber-Regular-Expressions-Cheat-Sheet.pdf
+
+`throws Throwable` is an exception handler. It is required to prevent a java program crash if an error is encountered. The auto-generated step-definitions also create a `throw new PendingException();` we do not use this exception handler so it is ideal if you could delete it.
+
+## The Sequential Order
+
+In executing the tests, the framework will start from the feature files. These step definitions allow us to link the .feature gherkin file to a java class file. In my opinion, it is reasonable to ascert that this is the start of a sequential order
+
+▼ Feature files
+
+▼ Step-definitions
+
+▼ Step-Libraries
+
+▼ Page Object Model
 
 ## Step Libraries
 
@@ -280,7 +320,7 @@ C:\Users\<User>\<ProjectName>\target\site\serenity\index.html
 to run, double click 
 C:\Program Files\Atlassian\JIRA\bin\startup.bat
 
-To use, uncomment in serenity.properties. I advise following gitlab wiki.
+To use, uncomment in serenity.properties. I advise following the gitlab wiki.
 
 ## Zephyr
 
