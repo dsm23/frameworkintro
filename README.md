@@ -253,7 +253,7 @@ You can also create step-definitions for every gherkin description in the .featu
 
 However, it is worth noting that the generation step-definitions use double quotes and do not convert keywords declared in single quotes into variables in their step-definitions.
 
-The simplest keyword declartion is `'(.*)'` In that:
+The simplest keyword declaration is `'(.*)'` in that:
 
 ```java
 @Given("^I search for '(.*)'$")
@@ -270,13 +270,13 @@ Cheatsheet: http://agileforall.com/wp-content/uploads/2011/08/Cucumber-Regular-E
 
 In executing the tests, the framework will start from the feature files. These step definitions allow us to link the .feature gherkin file to a java class file. In my opinion, it is reasonable to ascert that this is the start of a sequential order
 
-⇓ Feature files
+⇩ Feature files
 
-⇓ Step-definitions
+⇩ Step-definitions
 
-⇓ Step-Libraries
+⇩ Step-Libraries
 
-⇓ Page Object Model
+⇩ Page Object Model
 
 ## Step Libraries
 
