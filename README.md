@@ -276,7 +276,7 @@ In executing the tests, the framework will start from the feature files. These s
 
 ↡ Step-Libraries
 
-↡ Page Object Model
+↠ Page Object Model
 
 ## Step Libraries
 
