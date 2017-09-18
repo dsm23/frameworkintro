@@ -270,13 +270,13 @@ Cheatsheet: http://agileforall.com/wp-content/uploads/2011/08/Cucumber-Regular-E
 
 In executing the tests, the framework will start from the feature files. These step definitions allow us to link the .feature gherkin file to a java class file. In my opinion, it is reasonable to ascert that this is the start of a sequential order
 
-▼ Feature files
+⇓ Feature files
 
-▼ Step-definitions
+⇓ Step-definitions
 
-▼ Step-Libraries
+⇓ Step-Libraries
 
-▼ Page Object Model
+⇓ Page Object Model
 
 ## Step Libraries
 
